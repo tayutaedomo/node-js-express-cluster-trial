@@ -1,6 +1,10 @@
 # node-js-express-cluster-trial
 Try express-cluster
 
+See also below links
+- https://devcenter.heroku.com/articles/node-concurrency
+- https://www.npmjs.com/package/express-cluster
+
 # Setup on your local
 Install node-dev if you need.
 ```
