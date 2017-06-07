@@ -121,6 +121,8 @@ function main(worker) {
 //   return app.listen(0xbeef);
 // }, { count: 1 });
 
+var WORKERS = process.env.WEB_CONCURRENCY || 1;
+
 // main();
-cluster(main, { count: 1 });
+cluster(main, { count: WORKERS });
 
